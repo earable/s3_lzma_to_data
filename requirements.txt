@@ -1,0 +1,14 @@
+# Core data processing libraries
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Note: The following modules are built-in Python modules and don't need installation:
+# - lzma (built-in compression module)
+# - pathlib (built-in path handling)
+# - datetime (built-in date/time module)
+# - struct (built-in binary data processing)
+
+# Optional: For better performance and additional features
+# scipy>=1.7.0          # For advanced signal processing
+# matplotlib>=3.4.0     # For data visualization
+# seaborn>=0.11.0       # For statistical data visualization
