@@ -191,6 +191,8 @@ from dat_reader import DatReader
 reader = DatReader("./extracted_RAW_DATA_F24AUN05FX1U_1753868352000")
 all_data = reader.read_all_sensors()
 
+```
+
 ## 📊 Supported Sensor Types
 
 | Sensor | Data Shape | Channels | Description | Sample Rate |
