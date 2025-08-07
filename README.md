@@ -191,13 +191,6 @@ from dat_reader import DatReader
 reader = DatReader("./extracted_RAW_DATA_F24AUN05FX1U_1753868352000")
 all_data = reader.read_all_sensors()
 
-# Step 3: Convert JSON scores
-from frenz_utils.json_to_csv_converter import JsonToCsvConverter
-
-converter = JsonToCsvConverter("your_product_key_here")
-csv_file = converter.convert_json_to_csv("FOCUS_SCORE.json")
-```
-
 ## 📊 Supported Sensor Types
 
 | Sensor | Data Shape | Channels | Description | Sample Rate |
